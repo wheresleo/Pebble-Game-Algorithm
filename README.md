@@ -3,7 +3,7 @@ Python implementation of the 2-D rigidity pebble game algorithm
 
 Firstly, let's review the Laman theorem from graph theory.
 
-Theorem: *A generic network in two dimensions with N sites and B bonds (defining a graph) does not have a redundant bond if no subset of the network containing n sites and b bonds (defining a subgraph) violates b <= 2n-3.*
+Theorem: *A generic network in two dimensions with N sites and B bonds (defining a graph) does not have a redundant bond if no subset of the network, other than the itself, containing n sites and b bonds (defining a subgraph) violates b <= 2n-3.*
 
 From there, we can deduce a property of a generically stressed network.
 
